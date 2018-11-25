@@ -117,7 +117,7 @@ fig, ax = plt.subplots()
 plt.bar(x, year, width=0.5, bottom=None, color='coral')
 
 plt.xticks(x, ('1924', '1928', '1932', '1936', '1948', '1952', '1956', '1960', '1964', '1968', '1972', '1974', '1978', '1982', '1984', '1988', '1992', '1994', '1998', '2002', '2006', '2010', '2014'))
-plt.title("Totals medals in 1924 and 2014 ", fontsize=14)
+plt.title(" Number of medals by years (from 1924 to 2014) ", fontsize=14)
 
 plt.show()
 
