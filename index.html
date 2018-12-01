@@ -2,22 +2,63 @@
 <html lang="en">
 	<head>
 	<meta charset="utf-8">	
-	<title> Olympic Winter </title>
+	<title> Olympic Winter Data Vizualisation </title>
 	<link href="css/main.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
-		<!-- code goes here -->
-		<img src="images/medal_by_year.png">
-		<br>
+	<main class="container">
 
-		<img src="images/total_medal.png">
-		<br>
-		<img src="images/gender_olympic.png">	
-		<br>	
-		<img src="images/medal_usa_v_world.png">
-		<img src="images/genderUSA_v_world.png">
-		<br>
-		<img src="images/gender_usa.png">
-		<img src="images/medal_usa.png">
+		<!-- code goes here -->
+
+	<header id="mainHeader">
+		<h1> Winter Olympics Data Vizualisation</h1>
+		<h2> Using Python</h2>
+	</header>
+
+	<div id="medalCon">
+		<section id="medalsByYear">
+			<h2>Total Medals given from 1924 to 2014</h2>
+			<img src="images/medal_by_year.png" alt="Medal by year" height="400" width="600">
+		</section>
+
+		<section id="TotalMedal">
+			<h2>Percentage of Gold, Silver, and Bronze medals since 1924</h2>
+			<img src="images/total_medal.png" alt="Total Medals" height="300" width="400">
+		</section>
+
+		<section id="genderOlympic">
+			<h2>Number of Men and Women Participating in the winter olympics since 1924</h2>
+			<img src="images/gender_olympic.png" alt="Gender" height="300" width="400">	
+		</section>
+	</div>
+
+	<div id="usaWorldCon">
+		<section id="usaVworld">
+		<div>
+			<h2>Percentage of medals won by the USA vs the World</h2>	
+			<img src="images/medal_usa_v_world.png" alt="Usa vs world" height="300" width="400">
+		</div>
+
+		<div>
+			<h2>Medals won by men and women from USA vs men and women from the rest of the world</h2>
+			<img src="images/genderUSA_v_world.png" alt="Gender Usa" height="300" width="400">
+		</div>
+		</section>
+
+		<section id="genderUsa">
+		<div>
+			<h2>Percentage of men an women form USA participating in the winter olympics</h2>	
+			<img src="images/gender_usa.png" alt="Percentage of men and women" height="300" width="400">
+		</div>
+
+		<div>
+			<h2>Percentage of Gold, Silver and Bronze Medals won by the USA</h2>
+			<img src="images/medal_usa.png" alt="Percentage of different kinds of medlas in USA" height="300" width="400">
+		</div>
+		</section>
+	</div>
+
+
+	</main>
 	</body>
 </html>

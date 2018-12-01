@@ -1,0 +1,164 @@
+/*.box {
+  background-color: #8ea86e;
+  color: #fff;
+  text-align: center;
+  margin: 20px;
+}*/
+
+div,p,body,header,footer,section,article,nav,h1,h2,h3,h4 { 
+margin: 0; 
+padding: 0; 
+} 
+
+img { 
+border: none; 
+margin: 0; 
+padding: 0; 
+}
+
+/*html selectors*/
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  background-color: #ededed;
+}
+
+
+.hidden
+{
+  display: none;
+}
+
+.container
+{
+  width: 980px;
+  height: 2300px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.mainHeader
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+header h1,h2
+{
+  background-color: #0077FF;
+  text-align: center;
+  color: #efefef;
+}
+
+header h1
+{
+  padding-top: 40px;
+  padding-bottom: 0px;
+}
+
+header h2
+{
+  padding-top: 10px;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+}
+
+
+
+
+.medalCon
+{
+  width: 960px;
+  height: 800px;
+}
+
+
+#medalsByYear
+{
+	height: 430px;
+	width: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto; 
+}
+
+#medalsByYear img
+{
+
+  margin-right: 60px;
+}
+
+#TotalMedal
+{
+	height: 350px;
+	width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+
+#genderOlympic
+{
+	height: 350px;
+	width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#genderOlympic img
+{
+  margin-left: 60px;
+}
+
+#usaWorldCon
+{
+  width: 960px;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#usaVworld, #genderUsa
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#usaVworld h2
+{
+  width: 400px;
+  height: 80px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#genderUsa
+{
+  margin-top: 20px;
+}
+
+#genderUsa h2
+{
+  width: 400px;
+  height: 80px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+
